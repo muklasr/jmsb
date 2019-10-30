@@ -1,4 +1,4 @@
-package com.jmsb.segera.ui.home
+package com.jmsb.segera.ui.absen
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
