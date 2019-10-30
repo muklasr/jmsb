@@ -14,9 +14,9 @@ import com.jmsb.segera.helper.DataHelper
 import com.jmsb.segera.model.Jadwal
 import kotlinx.android.synthetic.main.fragment_absen.view.*
 
-class HomeFragment : Fragment() {
+class AbsenFragment : Fragment() {
 
-    private lateinit var homeViewModel: HomeViewModel
+    private lateinit var homeViewModel: AbsenViewModel
     val list: ArrayList<Jadwal> = ArrayList()
 
     override fun onCreateView(
@@ -25,7 +25,7 @@ class HomeFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         homeViewModel =
-            ViewModelProviders.of(this).get(HomeViewModel::class.java)
+            ViewModelProviders.of(this).get(AbsenViewModel::class.java)
         val root = inflater.inflate(R.layout.fragment_absen, container, false)
 
         val dataHelper = DataHelper(root.context)

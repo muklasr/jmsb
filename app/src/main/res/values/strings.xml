@@ -1,6 +1,9 @@
 <resources>
     <string name="app_name">Segera</string>
-    <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="title_absen">Absen</string>
+    <string name="title_jadwal">Jadwal</string>
+    <string name="title_todo">Catatan</string>
+    <string name="jadwalku">Jadwalku</string>
+    <string name="absenku">Absenku</string>
+    <string name="catatanku">Catatanku</string>
 </resources>

@@ -1,13 +1,13 @@
-package com.jmsb.segera.ui.notifications
+package com.jmsb.segera.ui.todo
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 
-class NotificationsViewModel : ViewModel() {
+class TodoViewModel : ViewModel() {
 
     private val _text = MutableLiveData<String>().apply {
-        value = "This is notifications Fragment"
+        value = "SEGERA"
     }
     val text: LiveData<String> = _text
 }
