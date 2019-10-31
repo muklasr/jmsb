@@ -6,4 +6,20 @@
     <string name="jadwalku">Jadwalku</string>
     <string name="absenku">Absenku</string>
     <string name="catatanku">Catatanku</string>
+    <string-array name="array_days">
+        <item>Senin</item>
+        <item>Selasa</item>
+        <item>Rabu</item>
+        <item>Kamis</item>
+        <item>Jumat</item>
+        <item>Sabtu</item>
+    </string-array>
+    <string-array name="array_hours">
+        <item>07.15</item>
+        <item>09.00</item>
+        <item>10.40</item>
+        <item>12.00</item>
+        <item>14.00</item>
+        <item>15.30</item>
+    </string-array>
 </resources>
