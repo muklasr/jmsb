@@ -6,11 +6,11 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.jmsb.segera.R
-import com.jmsb.segera.model.Jadwal
+import com.jmsb.segera.model.Matkul
 import kotlinx.android.synthetic.main.item_row.view.*
 
-class JadwalAdapter(val context: Context, val items: ArrayList<Jadwal>) :
-    RecyclerView.Adapter<JadwalAdapter.ListViewVH>() {
+class MatkulAdapter(val context: Context, val items: ArrayList<Matkul>) :
+    RecyclerView.Adapter<MatkulAdapter.ListViewVH>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ListViewVH {
         val view = LayoutInflater.from(context).inflate(R.layout.item_row, parent, false)
@@ -23,11 +23,11 @@ class JadwalAdapter(val context: Context, val items: ArrayList<Jadwal>) :
 
     override fun onBindViewHolder(holder: ListViewVH, position: Int) {
 
-        val jadwal = items.get(position)
+        val matkul = items.get(position)
 
-        holder.itemView.tvMatkul.text = jadwal.nama
-        holder.itemView.tvJam.text = jadwal.jam
-        holder.itemView.tvRuang.text = jadwal.ruangan
+        holder.itemView.tvMatkul.text = matkul.nama+"("+matkul.sks+")"
+        holder.itemView.tvJam.text = matkul.dosen
+        holder.itemView.tvRuang.text = matkul.bolos.toString()+"/"+matkul.jatah.toString()
     }
 
     class ListViewVH(view: View) : RecyclerView.ViewHolder(view)

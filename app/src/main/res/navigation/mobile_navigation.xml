@@ -7,15 +7,15 @@
 
     <fragment
         android:id="@+id/navigation_absen"
-        android:name="com.jmsb.segera.ui.absen.AbsenFragment"
+        android:name="com.jmsb.segera.ui.matkul.MatkulFragment"
         android:label="@string/title_absen"
-        tools:layout="@layout/fragment_absen" />
+        tools:layout="@layout/fragment_matkul" />
 
     <fragment
         android:id="@+id/navigation_jadwal"
-        android:name="com.jmsb.segera.ui.jadwal.JadwalFragment"
+        android:name="com.jmsb.segera.ui.pertemuan.PertemuanFragment"
         android:label="@string/title_jadwal"
-        tools:layout="@layout/fragment_jadwal" />
+        tools:layout="@layout/fragment_pertemuan" />
 
     <fragment
         android:id="@+id/navigation_todo"

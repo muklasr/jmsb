@@ -1,10 +1,10 @@
 <resources>
     <string name="app_name">Segera</string>
-    <string name="title_absen">Absen</string>
+    <string name="title_absen">Matkul</string>
     <string name="title_jadwal">Jadwal</string>
     <string name="title_todo">Catatan</string>
     <string name="jadwalku">Jadwalku</string>
-    <string name="absenku">Absenku</string>
+    <string name="absenku">Matkulku</string>
     <string name="catatanku">Catatanku</string>
     <string-array name="array_days">
         <item>Senin</item>
